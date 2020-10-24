@@ -1780,7 +1780,7 @@ float modelScaleAndUp(std::string mod_url,bool &Z_UP)
  * \param mod_url
  * \return
  */
-bool loadModel(std::string mod_url,std::string frame_id,Matrix4 trans,Vector3 scale,int id=0,std::string name="",bool initialize=true)
+void loadModel(std::string mod_url,std::string frame_id,Matrix4 trans,Vector3 scale,int id=0,std::string name="",bool initialize=true)
 {
     resolveURI(mod_url);
 
